@@ -153,3 +153,21 @@ footer.footer {
     font-size: 1em;
     margin-bottom: 15px;
 }
+
+.contact-section {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.contact-info p {
+    font-size: 1.05em;
+    margin-bottom: 10px;
+}
+.contact-info a {
+    color: #3e2c1c;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
