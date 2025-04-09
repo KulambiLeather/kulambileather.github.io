@@ -132,3 +132,24 @@ footer.footer {
 .social-links a:hover {
     text-decoration: underline;
 }
+
+.journal-list {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.journal-item {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    margin-bottom: 30px;
+}
+.journal-item h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.journal-item p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
