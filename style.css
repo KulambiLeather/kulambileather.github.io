@@ -119,3 +119,16 @@ footer.footer {
     color: #222;
     font-size: 0.95em;
 }
+
+.social-links {
+    margin-top: 10px;
+}
+.social-links a {
+    color: #d1a35f;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: 500;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
