@@ -208,3 +208,17 @@ footer.footer {
 .order-form button:hover {
     background-color: #2d1f14;
 }
+
+.back-home {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.back-home a {
+    color: #d1a35f;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+.back-home a:hover {
+    text-decoration: underline;
+}
