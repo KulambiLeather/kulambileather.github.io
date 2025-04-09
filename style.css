@@ -171,3 +171,40 @@ footer.footer {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
+.order-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+.order-form label {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+.order-form input,
+.order-form textarea,
+.order-form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 1em;
+}
+.order-form button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #3e2c1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.order-form button:hover {
+    background-color: #2d1f14;
+}
