@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fdfaf5;
+    color: #1e1e1e;
+}
+
+header.hero {
+    background-color: #3e2c1c;
+    color: #f5e9d3;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin: 10px 0 30px;
+}
+
+.cta-button {
+    background-color: #d1a35f;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about, .gallery, .testimonial {
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-grid img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+footer.footer {
+    background-color: #1e1e1e;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
